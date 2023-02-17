@@ -4,7 +4,7 @@
     "description": "",
     "scripts": {
         "start": "parcel src/index.html",
-        "build": "parcel build src/index.html --no-source-maps --dist-dir build"
+        "build": "parcel build src/index.html --no-source-maps --dist-dir ."
     },
     "repository": {
         "type": "git",
@@ -20,5 +20,8 @@
     "devDependencies": {
         "@parcel/transformer-sass": "^2.8.3",
         "parcel": "^2.8.3"
+    },
+    "dependencies": {
+        "bulma": "^0.9.4"
     }
 }
